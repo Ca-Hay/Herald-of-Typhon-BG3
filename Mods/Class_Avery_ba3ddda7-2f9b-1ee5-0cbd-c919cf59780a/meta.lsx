@@ -21,21 +21,21 @@
                     <attribute id="Author" type="LSString" value="iTriceratops, Typhon"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSString" value="HERALD OF TYPHON CLASS - Another voice in your head, a giant purple eye fused to your back. At least is appears to be friendly? It lends you its strength. Adds a scaling Mage Hand summon and Eye of Typhon that has the &apos;help&apos; action."/>
-                    <attribute id="FileSize" type="uint64" value="1428380"/>
+                    <attribute id="FileSize" type="uint64" value="1431457"/>
                     <attribute id="Folder" type="LSString" value="Class_Avery_ba3ddda7-2f9b-1ee5-0cbd-c919cf59780a"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
                     <attribute id="MD5" type="LSString" value="b6031e22d50ee339c96e5a1152aff2b6"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
-                    <attribute id="Name" type="LSString" value="Herald of Typhon"/>
+                    <attribute id="Name" type="LSString" value="Herald of Typhon [ FEAT EVERY LEVEL ]"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
                     <attribute id="PhotoBooth" type="FixedString" value=""/>
-                    <attribute id="PublishHandle" type="uint64" value="4967797"/>
+                    <attribute id="PublishHandle" type="uint64" value="5172035"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="ba3ddda7-2f9b-1ee5-0cbd-c919cf59780a"/>
-                    <attribute id="Version64" type="int64" value="36028797018964012"/>
+                    <attribute id="Version64" type="int64" value="36028797018964018"/>
                     <children>
                         <node id="PublishVersion">
-                            <attribute id="Version64" type="int64" value="144255927718543409"/>
+                            <attribute id="Version64" type="int64" value="9223372036854775807"/>
                         </node>
                         <node id="Scripts">
                             <children>
