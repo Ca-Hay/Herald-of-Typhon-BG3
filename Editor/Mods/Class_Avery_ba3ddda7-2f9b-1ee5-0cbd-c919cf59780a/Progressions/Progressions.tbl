@@ -12,7 +12,7 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="TyphonHandLvl1;EyephonSummoner;" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons);" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,WarlockCantrip);SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,1,0,WarlockSpell);SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
-        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
