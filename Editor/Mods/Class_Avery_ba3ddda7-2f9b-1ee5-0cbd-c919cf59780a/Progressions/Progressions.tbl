@@ -12,6 +12,7 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="TyphonHandLvl1;EyephonSummoner;" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons);" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,WarlockCantrip);SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,1,0,WarlockSpell);SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -24,6 +25,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,2,1);" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(333fb1b0-9398-4ca8-953e-6c0f9a59bbed,2,WarlockInvocations);SelectSpells(65952d48-bb16-4ad7-b173-532182bf7770,1,1,WarlockSpell);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -38,6 +40,7 @@
         <field name="PassivesRemoved" type="StringTableFieldDefinition" value="TyphonHandLvl1;" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,3,2);ActionResourceOverride(WarlockSpellSlot,0,1)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(8d8ac513-c7c8-4f8b-b67f-5a9a14741aae,1,PactBoon);SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,WarlockSpell);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -64,6 +67,7 @@
         <field name="PassivesRemoved" type="StringTableFieldDefinition" value="TyphonHandLvl3;" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,3,3);ActionResourceOverride(WarlockSpellSlot,0,2)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(8adab8f9-e360-4f79-851b-2c7e050ca23d,1,WarlockInvocations);SelectSpells(5dec41aa-f16a-434e-b209-50c07e64e4ed,1,1,WarlockSpell);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -75,6 +79,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(5dec41aa-f16a-434e-b209-50c07e64e4ed,1,1,WarlockSpell);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -89,6 +94,7 @@
         <field name="PassivesRemoved" type="StringTableFieldDefinition" value="TyphonHandLvl5;" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,3,4);ActionResourceOverride(WarlockSpellSlot,0,3)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d,1,1,WarlockSpell);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -115,6 +121,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,3,5);ActionResourceOverride(WarlockSpellSlot,0,4)" />
         <field name="PassivesRemoved" type="StringTableFieldDefinition" value="TyphonHandLvl7;" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,1,WarlockSpell);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -126,6 +133,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,1,WarlockSpell);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -138,6 +146,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,5);" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,1,WarlockSpell);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
