@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="67731907-4ad8-4be6-9326-d6f5b982140e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5b7d070-f1c1-4b03-a0d8-4d3146c1840b" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryEyelazer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ddcb7911-c2a6-4a6d-a3a6-e6456611feef" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="5" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="Force(5);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h31336307g20ecg25bdg6755g1c75485f02f3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcbdb8548g161fga30dg1bf5gdd2d590b14ea" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="null" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value=",,;,,;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90,,;,,;,,;,,;,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;RangeIgnoreVerticalThreshold;IsHarmful;DisplayDamageModifiers;HasHighGroundRangeExtension;IsAttack;AddFallDamageOnLand" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

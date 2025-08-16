@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c4e382b0-5350-42d6-bbb1-f1f830db999b" />
+        <field name="Name" type="NameTableFieldDefinition" value="TyphonHandLvl1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0125c6fe-f92a-4fb1-84ad-7d865151bb22" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d4128a2g8f1agccfegfdfcgb5ed1ebb4309" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e24f8cfgf1aeg6d29g6d9bgf032c5664205" version="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CustomMageHandLvl1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MageHand" />
+        <field name="LoreDescription" type="TranslatedStringTableFieldDefinition" handle="h14e60083g90ecg128bg83c9g81a76f4949ae" version="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9850f37-dc67-4e26-bf2f-08b0de0b5741" />
+        <field name="Name" type="NameTableFieldDefinition" value="TyphonHandLvl5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0125c6fe-f92a-4fb1-84ad-7d865151bb22" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73c06cfcg5777g4a93g58abgcfd1162e491b" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h28545c42g5577g0893gadd8g1b8f3d218607" version="3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CustomMageHand);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MageHand" />
+        <field name="LoreDescription" type="TranslatedStringTableFieldDefinition" handle="h93555b26gee7cg66d9g1594g261167915f2e" version="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="119e8455-37b3-44d8-97b6-6f538de12b17" />
+        <field name="Name" type="NameTableFieldDefinition" value="TyphonHandLvl3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0125c6fe-f92a-4fb1-84ad-7d865151bb22" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha5a068b6ge87cg2322gd44egc9787e330018" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdda01205g3c69ge05cg0824g4d86fe17063b" version="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CustomMageHandLvl3);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MageHand" />
+        <field name="LoreDescription" type="TranslatedStringTableFieldDefinition" handle="h140086c5ge3c0g07bfg173bgf552292c552a" version="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2209bd65-02f0-4816-83b5-52fde408f43c" />
+        <field name="Name" type="NameTableFieldDefinition" value="TyphonHandLvl7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0125c6fe-f92a-4fb1-84ad-7d865151bb22" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0cb57eagb87bgcc8cg0a13gcc10f05b8657" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h74e38a7fgd45bg5fbeg96dagf8e2972326e0" version="3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CustomMageHandLvl7);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MageHand" />
+        <field name="LoreDescription" type="TranslatedStringTableFieldDefinition" handle="h1375d9d1g547egcd75g7974gb4c5cda0c480" version="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf713846-85bc-4b72-9e8b-58184038315d" />
+        <field name="Name" type="NameTableFieldDefinition" value="EyephonSummoner" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0125c6fe-f92a-4fb1-84ad-7d865151bb22" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5f2e0161g7c52g4cb2ga9d2g9a617eb567aa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he72cca40ge3d9g4356g2426g7d5211e8c583" version="7" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Avery_Passive_Eyephon" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SummonEyephon);StatusImmunity(SG_Blinded);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);" />
+        <field name="LoreDescription" type="TranslatedStringTableFieldDefinition" handle="hd8eaf5fcg31bag48dbg7442g5c8c442377d3" version="4" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c9a0dcae-c563-464e-bba6-3081f74c4102" />
+        <field name="Name" type="NameTableFieldDefinition" value="TyphonHandLvl9" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0125c6fe-f92a-4fb1-84ad-7d865151bb22" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7f126a66g55d6gb388gabe6ga83303434fa9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h29ac26edgd99agff46g8815gf30820288ffa" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MageHand" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CustomMageHandLvl9);" />
+        <field name="LoreDescription" type="TranslatedStringTableFieldDefinition" handle="h8f3f8f19g3f6fg8f89gd41eg54c0294cb126" version="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a6b55bcf-62e8-458b-8b72-9da7f89f6a84" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonedTyphon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cf713846-85bc-4b72-9e8b-58184038315d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21298894g71ffg45e5gf290g8119c057ad21" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55b96e8fg865dg43e5ga03cgd092f148f4ef" version="1" />
+        <field name="LoreDescription" type="TranslatedStringTableFieldDefinition" handle="hef182cb2g7f31g7df1gbdf0g32f6b59c4641" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);StatusImmunity(SG_Blinded);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

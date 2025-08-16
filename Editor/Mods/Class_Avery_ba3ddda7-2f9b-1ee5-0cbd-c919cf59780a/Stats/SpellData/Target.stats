@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e988a674-28fe-49d2-a6ce-c5c1e0141f4c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78f01145-918a-43cb-972e-731cc94ab020" />
+        <field name="Name" type="NameTableFieldDefinition" value="CustomMageHand" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(7a0c1ecf-b553-470b-b4e1-d9ed091b0ffe, -1,,,'AveryHand',LEVITATE);GROUND:Summon(7a0c1ecf-b553-470b-b4e1-d9ed091b0ffe, -1,,,'AveryHand2',LEVITATE);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusRemoved;OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('7a0c1ecf-b553-470b-b4e1-d9ed091b0ffe') and not Character() and not Self();" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h13e0d1a6g1f5dge2ebgeaddgc3bb2e3cd8e4" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h433e6ab2gf683gae0cg367bgcd8ea3f194a3" version="4" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_MageHand_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_MageHand_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;605d49b4-03b9-47f6-96e9-7f80e6be7514,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="518bc78f-c169-43ba-b951-977d75429199" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="77ad0465-858b-4298-af5f-1c219f06386f" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Avery_Spell_HandSummon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44401611-7b68-4ae0-b6de-e791de5d65e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandShove" />
+        <field name="TargetCeiling" type="StringTableFieldDefinition" value="0" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value=".25" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="2&#xD;&#xA;" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="ShoveCheck()" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not Ally()):Force(5,OriginToEntity,Aggressive);IF(Ally()):Force(5,OriginToEntity,Friendly);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and CanShoveWeight() and IsMovable() and not Grounded() and not Tagged('GASEOUS_FORM') and not (not Player(context.Source) and Combat(context.Source) and Character() and not (Enemy() or HasStatus('SG_Unconscious'))) and not Tagged('CANT_SHOVE_THROW')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Shove" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4a4b0b10g4a41gb0dag551cg6d41984fecf1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0c711fa9g1041gbe1age8a5gfb843260c54d" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_Tentacle" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="CrSpell_Impact_Tentacle" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="not Grounded();" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="0319ca29-4024-4649-9278-3c1f20c5f023,,;a71e11ca-95ab-463d-a4bf-fe8094126b61,,;352c3a89-f99c-4472-8424-58c0ffb15e55,,;a57fc614-ed20-4574-936b-bdcc6cebd36a,,;b24b3f23-6d3a-43ce-ae3a-abfb44d26082,,;200ab854-a989-4a6a-8ac9-4b20aecaccda,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;AddFallDamageOnLand;IsHarmful;CombatLogSetSingleLineRoll" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellActionType" type="EnumerationTableFieldDefinition" value="Shove" enumeration_type_name="SpellActionType" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="PhysicalDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Peaceful" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c512042e-a04f-4a02-af7a-16f30e11ed95" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="3fdf3e73-59a3-4518-9521-35f40374d048" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="5d8c64e3-f9ff-4ee0-b0b6-2a081c7244a8" />
+        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="SpellSoundMagnitude" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="71a1860f-95ef-4b18-b8d8-9394adcfe37a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db0a1ac7-d824-4a60-9ebb-d9a8c119f830" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandAttack1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb2e2d55-aef5-4d96-a881-7b5d5da09203" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="2" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d6,Slashing);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Bear_Claws" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2f1589cagfb08ge291g84dcg7e5ce68329e1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5d299882gce93gfa4ega9dfg8aec6d50d690" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6,Slashing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="693af4dc-2d3f-4f0c-8f59-904734946795" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandAttack2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="db0a1ac7-d824-4a60-9ebb-d9a8c119f830" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d6,Slashing);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbfdf273fg58f3g0c93g2a94g1f257959bd56" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4159b14fga5a7ga673g064agb6af06547fa9" version="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d6,Slashing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56b2386c-4e03-4abd-a4a8-bfa2b410c553" />
+        <field name="Name" type="NameTableFieldDefinition" value="CustomMageHandLvl1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78f01145-918a-43cb-972e-731cc94ab020" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(93a03ca5-1e61-46ac-97b4-b048ccc45493, -1,,,'AveryHand',LEVITATE);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hebf147c1g80fbg70a9g4720g1e855c1e5665" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b605bd3-dc19-4e84-aad2-f2337f94f91a" />
+        <field name="Name" type="NameTableFieldDefinition" value="CustomMageHandLvl3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78f01145-918a-43cb-972e-731cc94ab020" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(7a0c1ecf-b553-470b-b4e1-d9ed091b0ffe, -1,,,'AveryHand',LEVITATE);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6bb8bc32gd114g36b0g0e07gbb50ed0c27d0" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94c220cd-776c-468e-b4b3-92cb2343e679" />
+        <field name="Name" type="NameTableFieldDefinition" value="CustomMageHandLvl7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78f01145-918a-43cb-972e-731cc94ab020" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(288bd341-52a5-4deb-a41f-34c80bf8e7aa, -1,,,'AveryHand',LEVITATE);GROUND:Summon(288bd341-52a5-4deb-a41f-34c80bf8e7aa, -1,,,'AveryHand2',LEVITATE);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('288bd341-52a5-4deb-a41f-34c80bf8e7aa') and not Character() and not Self();" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1db6588ag08e6g33dagd171g6cff4bd86209" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7aad697c-3b51-4c0b-9f2e-24408f9f2e1a" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandAttack3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="db0a1ac7-d824-4a60-9ebb-d9a8c119f830" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6,Slashing);IF(Character() and not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(HAMSTRING,100,2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc035237g836fg8d4bg7571ged2439a50c29" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h42bdacc5g1c00ge3f8g2a93g5dc2a120031e" version="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6,Slashing);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="4" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34ff392f-6c7e-4ea3-95ca-3f14aba1309f" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandShove_Weaker" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="44401611-7b68-4ae0-b6de-e791de5d65e6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not Ally()):Force(3,OriginToEntity,Aggressive);IF(Ally()):Force(3,OriginToEntity,Friendly);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8e1439f9g7f4ag55a5gbebbgcf8484826871" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a832c466-7bfd-4efd-a0ca-9782b71a570e" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandShove_Stronger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="44401611-7b68-4ae0-b6de-e791de5d65e6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not Ally()):Force(8,OriginToEntity,Aggressive);IF(Ally()):Force(8,OriginToEntity,Friendly);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6309314fg539bgd8a1gc52cg588b2693e3b5" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fb21d5e7-b46f-4bea-858b-1cf8a61a6762" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonEyephon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78f01145-918a-43cb-972e-731cc94ab020" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(f2bce7c8-8fbe-453e-bdcf-4c1282b8f1d2, -1,,,'Eyephon',LEVITATE);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('f2bce7c8-8fbe-453e-bdcf-4c1282b8f1d2') and not Character() and not Self();" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h70616c72g2d8dgdb90g2fd3gce624936cf1c" version="4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e4f173cg0746g2c9eg1fa1ga40bb399ae8a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Avery_Spell_EyeSummon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1df0b198-a41d-4da7-85b6-72bbe95b9563" />
+        <field name="Name" type="NameTableFieldDefinition" value="CustomMageHandLvl9" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="94c220cd-776c-468e-b4b3-92cb2343e679" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(2577d486-4af2-4446-ba16-f0f00664e91d, -1,,,'AveryHand',LEVITATE);GROUND:Summon(2577d486-4af2-4446-ba16-f0f00664e91d, -1,,,'AveryHand2',LEVITATE);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('2577d486-4af2-4446-ba16-f0f00664e91d') and not Character() and not Self();" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h93553ad0gd1b9gec59gbc2cg19c953c2a510" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68192e2d-b717-49dc-ab32-ff9b5a685282" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandAttack4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7aad697c-3b51-4c0b-9f2e-24408f9f2e1a" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Slashing);IF(Character() and not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(CRIPPLED,100,2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9538cbbeg541cgdb3egbff7gdf28eef90a6e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7c402db6g03b7g9096g5bd1g1eec3ae15557" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Slashing);" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

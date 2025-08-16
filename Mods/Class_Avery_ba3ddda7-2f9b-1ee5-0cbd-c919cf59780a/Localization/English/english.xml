@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="h144705b0g3e01gbbc3gc23bgf1b69f9d9d7b" version="2">Herald of Typhon</content>
+  <content contentuid="h8c532fc3gb601g67fcg1bd4gd192a0404091" version="6">Another Voice in your head, a giant purple eye fused into your back. At least it appears to be friendly? It lends you its strength.</content>
+  <content contentuid="h13e0d1a6g1f5dge2ebgeaddgc3bb2e3cd8e4" version="2">Summon Extension of Typhon</content>
+  <content contentuid="h433e6ab2gf683gae0cg367bgcd8ea3f194a3" version="4">Create a pair of stronger spectral hands that can attack and manipulate objects, lasts until long rest.</content>
+  <content contentuid="hd214e6adgee4cga976g585cga67c142469b3" version="18">Extension of Typhon</content>
+  <content contentuid="h4a4b0b10g4a41gb0dag551cg6d41984fecf1" version="1">Barge</content>
+  <content contentuid="h0c711fa9g1041gbe1age8a5gfb843260c54d" version="1">Shove a target 5m</content>
+  <content contentuid="h8492d3cag649bg7848g9021g68fe0ee2eb9c" version="1">Throw </content>
+  <content contentuid="h0f8318b3ge426g6a38g1d94g300e75f52bd2" version="2">Pick up an item or creature and throw it at another creature to make an attack.</content>
+  <content contentuid="h66195ec2g56c0g45c5g3700g7280dd77a795" version="1">Improvised Attack</content>
+  <content contentuid="h080ac651g7dccgc49ag06c7g4dc078ae1d75" version="2">Pick up an item or creature, carry it to their location and slam it against another item or creature to make an attack.</content>
+  <content contentuid="h96ae3c18g5f2cg70bagf0bdgfa85452ce8c2" version="1">Slam</content>
+  <content contentuid="h46ca0b07g0d46geadcg5108gd6f7426fcd6e" version="1">Slam the ground with your fist and deal damage in a 3m area around you</content>
+  <content contentuid="ha4ad6f75g4f5cg3fbbgbe49gf3334fdd78c6" version="1">Slam</content>
+  <content contentuid="heaa0af8bg9020gd960g263egc64aea5b8931" version="1">Slam the ground with your fist and deal damage in a 3m area around you</content>
+  <content contentuid="h034d11edga97ag5f90gfdb9gda50228a2df3" version="1">Slam</content>
+  <content contentuid="hef035a40gd1e4gb71fgf554ga0d803043565" version="3">Slam the ground, dealing bludgeoning damage in a 3m radius and knocking targets away.</content>
+  <content contentuid="h8781e751gfe72g82bfg623dgbdc823ac25cb" version="22">Manifestation of Typhon</content>
+  <content contentuid="h2f1589cagfb08ge291g84dcg7e5ce68329e1" version="1">Rake</content>
+  <content contentuid="h5d299882gce93gfa4ega9dfg8aec6d50d690" version="1">Rake a target with claws, dealing 2d6 slashing damage</content>
+  <content contentuid="hbfdf273fg58f3g0c93g2a94g1f257959bd56" version="1">Slash</content>
+  <content contentuid="h4159b14fga5a7ga673g064agb6af06547fa9" version="2">Slash a target with claws, dealing 3d6 slashing damage</content>
+  <content contentuid="hebf147c1g80fbg70a9g4720g1e855c1e5665" version="1">Create a weakened spectral hand that can attack and manipulate objects, lasts until long rest.</content>
+  <content contentuid="h4d4128a2g8f1agccfegfdfcgb5ed1ebb4309" version="1">Typhons Awakening</content>
+  <content contentuid="h1e24f8cfgf1aeg6d29g6d9bgf032c5664205" version="2">You are able to summon a weakened Manifestation of Typhon</content>
+  <content contentuid="h73c06cfcg5777g4a93g58abgcfd1162e491b" version="3">Typhons Impel</content>
+  <content contentuid="h28545c42g5577g0893gadd8g1b8f3d218607" version="3">You are able to summon Manifestation(s) of Typhon</content>
+  <content contentuid="h94ab1795ga75eg2cecga7cagb9897783f3b1" version="18">Manifestation of Typhon</content>
+  <content contentuid="h6bb8bc32gd114g36b0g0e07gbb50ed0c27d0" version="1">Create a stronger spectral hand that can attack and manipulate objects, lasts until long rest.</content>
+  <content contentuid="ha5a068b6ge87cg2322gd44egc9787e330018" version="1">Typhons Influence</content>
+  <content contentuid="hdda01205g3c69ge05cg0824g4d86fe17063b" version="2">You are able to summon a Manifestation of Typhon</content>
+  <content contentuid="he21c6893g365age7e4g8ba7g161c56a61223" version="19">Manifestation of Typhon</content>
+  <content contentuid="h1db6588ag08e6g33dagd171g6cff4bd86209" version="1">Create an even stronger pair of spectral hands that can attack and manipulate objects, lasts until long rest.</content>
+  <content contentuid="hfc035237g836fg8d4bg7571ged2439a50c29" version="2">Slash</content>
+  <content contentuid="h42bdacc5g1c00ge3f8g2a93g5dc2a120031e" version="2"> Slash at a target with claws, dealing 4d6 slashing damage and cutting their movement speed in half (on failed save)</content>
+  <content contentuid="hc0cb57eagb87bgcc8cg0a13gcc10f05b8657" version="3">Typhons Acolyte</content>
+  <content contentuid="h74e38a7fgd45bg5fbeg96dagf8e2972326e0" version="3">You are able to summon stronger Manifestation(s) of Typhon</content>
+  <content contentuid="h52d8d2d7g75e0g55e5g7c2dg51464fa17d76" version="1">Gargantuan Shove</content>
+  <content contentuid="h0c1f6bf0ge326gea27gea77gcb512f5a5a82" version="1">Hit targets infront of you to shove them 8m.</content>
+  <content contentuid="h83a98670gc6e8g6cb6gd87dgf60ee4b12fd1" version="1">Slam the ground, dealing bludgeoning damage in a 2m radius and knocking targets away.</content>
+  <content contentuid="he16a71b3gb258ge5d9gf89cg48819d0c5561" version="1">Slam the ground, dealing bludgeoning damage in a 4m radius and knocking targets away.</content>
+  <content contentuid="h6309314fg539bgd8a1gc52cg588b2693e3b5" version="1">Shove a target 8m</content>
+  <content contentuid="h8e1439f9g7f4ag55a5gbebbgcf8484826871" version="1">Shove a target 3m</content>
+  <content contentuid="h70616c72g2d8dgdb90g2fd3gce624936cf1c" version="4">Release the grotesque eye from between your shoulderblades. It will float after you :3</content>
+  <content contentuid="hd53cb6c4g738dg0605g7475ga1c1b4139007" version="22">Eye of Typhon</content>
+  <content contentuid="h5f2e0161g7c52g4cb2ga9d2g9a617eb567aa" version="1">Third Eye</content>
+  <content contentuid="he72cca40ge3d9g4356g2426g7d5211e8c583" version="7">You are immune to the blinded status effect, have minor darkvision (12m) and are able to summon the eye; it has the help action and cannot attack.</content>
+  <content contentuid="h31336307g20ecg25bdg6755g1c75485f02f3" version="1">Repelling Blast</content>
+  <content contentuid="hcbdb8548g161fga30dg1bf5gdd2d590b14ea" version="1">Repels a target</content>
+  <content contentuid="h465ea214g65cdg2201g56d0g3b5a1a559e02" version="1">Influence</content>
+  <content contentuid="h27c03480ga835gefeeg5979gfaf0576604c5" version="2">Amount of times you can summon Extensions of Typhon before needing to recharge.</content>
+  <content contentuid="h93553ad0gd1b9gec59gbc2cg19c953c2a510" version="1">Create the strongest pair of spectral hands that can attack and manipulate objects, lasts until long rest.</content>
+  <content contentuid="h7f126a66g55d6gb388gabe6ga83303434fa9" version="1">Typhons Gate</content>
+  <content contentuid="h29ac26edgd99agff46g8815gf30820288ffa" version="2">You are able to summon the strongest Manifestation(s) of Typhon</content>
+  <content contentuid="h93ed3e94g5112g950bg6316g4ca922ba9d46" version="1">Gateway</content>
+  <content contentuid="h745557d7g77d0g6080g8512gfbc3cdb5e018" version="18">Manifestation of Typhon</content>
+  <content contentuid="h9538cbbeg541cgdb3egbff7gdf28eef90a6e" version="1">Maim</content>
+  <content contentuid="h7c402db6g03b7g9096g5bd1g1eec3ae15557" version="1">Maim a target with claws, dealing 4d8 Slashing and reducing their movespeed to 0 this round (on failed save)</content>
+  <content contentuid="hd6bebe64gf7e6gdfbbg2708gbbc3cec1c73c" version="1">Slam the ground, dealing force damage in a 4m radius and knocking targets away.</content>
+  <content contentuid="h8a10d4efg0a6ag9b64ga0e5g90757d10c3b8" version="2">The eye will wriggle back inbetween your shoulder blades.</content>
+  <content contentuid="hda8080b9gd6deg9448g220cg71854e73664e" version="1">Recall Typhon</content>
+  <content contentuid="h0e4f173cg0746g2c9eg1fa1ga40bb399ae8a" version="1">Release Typhon's Eye</content>
+  <content contentuid="h14e60083g90ecg128bg83c9g81a76f4949ae" version="2">It reached through the veil...</content>
+  <content contentuid="h93555b26gee7cg66d9g1594g261167915f2e" version="2">Now there are two of them...</content>
+  <content contentuid="h140086c5ge3c0g07bfg173bgf552292c552a" version="2">Its influence on me grows...</content>
+  <content contentuid="h1375d9d1g547egcd75g7974gb4c5cda0c480" version="2">They grow stronger...</content>
+  <content contentuid="hd8eaf5fcg31bag48dbg7442g5c8c442377d3" version="4">It is nestled between your shoulderblades, unblinking.</content>
+  <content contentuid="h8f3f8f19g3f6fg8f89gd41eg54c0294cb126" version="2">The strongest manifestation...</content>
+  <content contentuid="h21298894g71ffg45e5gf290g8119c057ad21" version="1">Enhanced Blindsight</content>
+  <content contentuid="h55b96e8fg865dg43e5ga03cgd092f148f4ef" version="1">You are immune to the blinded status effect and also have the effects of minor darkvision.</content>
+  <content contentuid="hef182cb2g7f31g7df1gbdf0g32f6b59c4641" version="1">It doesnt rely on sight to perceive its surroundings</content>
+</contentList>

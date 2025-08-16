@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53912403-fe14-4ce0-89aa-96acb1dee21a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="285c4af9-96db-45b3-bb10-96fffd39341b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mauler" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="TyphonHandLvl1;EyephonSummoner;" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,WarlockCantrip);SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,1,0,WarlockSpell);SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c6da24f8-51e7-4572-bdc8-ba46204a39c3" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mauler" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,2,1);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(333fb1b0-9398-4ca8-953e-6c0f9a59bbed,2,WarlockInvocations);SelectSpells(65952d48-bb16-4ad7-b173-532182bf7770,1,1,WarlockSpell);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9e4662e7-55f8-4f9e-a209-8cd3d44574e0" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mauler" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="TyphonHandLvl3;" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="TyphonHandLvl1;" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,3,2);ActionResourceOverride(WarlockSpellSlot,0,1)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(8d8ac513-c7c8-4f8b-b67f-5a9a14741aae,1,PactBoon);SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,WarlockSpell);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c90557df-9d8a-4e98-a764-673f8d3d631b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mauler" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,WarlockSpell);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="990d8cb5-82a5-4e28-8824-86a6578dd685" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mauler" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="TyphonHandLvl5;ClarifiedMortality;" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="TyphonHandLvl3;" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,3,3);ActionResourceOverride(WarlockSpellSlot,0,2)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(8adab8f9-e360-4f79-851b-2c7e050ca23d,1,WarlockInvocations);SelectSpells(5dec41aa-f16a-434e-b209-50c07e64e4ed,1,1,WarlockSpell);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ae4b5ec8-da4c-484a-805f-b83c89dc271e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mauler" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(5dec41aa-f16a-434e-b209-50c07e64e4ed,1,1,WarlockSpell);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5200fa67-a2ed-41af-b610-669ccf451d1c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mauler" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="TyphonHandLvl7;" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="TyphonHandLvl5;" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,3,4);ActionResourceOverride(WarlockSpellSlot,0,3)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d,1,1,WarlockSpell);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="284d5cac-4ca4-420a-9703-56127576f7ba" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mauler" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d,1,1,WarlockSpell);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b89db26f-1071-41de-b538-2b94789a4265" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mauler" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="TyphonHandLvl9;" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,3,5);ActionResourceOverride(WarlockSpellSlot,0,4)" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="TyphonHandLvl7;" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,1,WarlockSpell);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="23da3da1-6c3c-4aaa-aa52-8ac8d71ec199" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mauler" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,1,WarlockSpell);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="347f034d-a261-4253-bc6f-c0f24255b4b6" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mauler" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,5);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,1,WarlockSpell);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+        <field name="UUID" type="IdTableFieldDefinition" value="292f7a4c-bf5e-4d96-8889-6aefbc417c7c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Mauler" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,1,WarlockSpell);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

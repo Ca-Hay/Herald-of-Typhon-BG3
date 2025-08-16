@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons);"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Mauler"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TyphonHandLvl1;EyephonSummoner;"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,WarlockCantrip);SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,1,0,WarlockSpell);SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
+                    <attribute id="TableUUID" type="guid" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583"/>
+                    <attribute id="UUID" type="guid" value="285c4af9-96db-45b3-bb10-96fffd39341b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,2,1);"/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="Mauler"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(333fb1b0-9398-4ca8-953e-6c0f9a59bbed,2,WarlockInvocations);SelectSpells(65952d48-bb16-4ad7-b173-532182bf7770,1,1,WarlockSpell);"/>
+                    <attribute id="TableUUID" type="guid" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583"/>
+                    <attribute id="UUID" type="guid" value="c6da24f8-51e7-4572-bdc8-ba46204a39c3"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,3,2);ActionResourceOverride(WarlockSpellSlot,0,1)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Mauler"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TyphonHandLvl3;"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="TyphonHandLvl1;"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(8d8ac513-c7c8-4f8b-b67f-5a9a14741aae,1,PactBoon);SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,WarlockSpell);"/>
+                    <attribute id="TableUUID" type="guid" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583"/>
+                    <attribute id="UUID" type="guid" value="9e4662e7-55f8-4f9e-a209-8cd3d44574e0"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="Mauler"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,WarlockSpell);"/>
+                    <attribute id="TableUUID" type="guid" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583"/>
+                    <attribute id="UUID" type="guid" value="c90557df-9d8a-4e98-a764-673f8d3d631b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,3,3);ActionResourceOverride(WarlockSpellSlot,0,2)"/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="Mauler"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TyphonHandLvl5;ClarifiedMortality;"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="TyphonHandLvl3;"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(8adab8f9-e360-4f79-851b-2c7e050ca23d,1,WarlockInvocations);SelectSpells(5dec41aa-f16a-434e-b209-50c07e64e4ed,1,1,WarlockSpell);"/>
+                    <attribute id="TableUUID" type="guid" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583"/>
+                    <attribute id="UUID" type="guid" value="990d8cb5-82a5-4e28-8824-86a6578dd685"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Mauler"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(5dec41aa-f16a-434e-b209-50c07e64e4ed,1,1,WarlockSpell);"/>
+                    <attribute id="TableUUID" type="guid" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583"/>
+                    <attribute id="UUID" type="guid" value="ae4b5ec8-da4c-484a-805f-b83c89dc271e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,3,4);ActionResourceOverride(WarlockSpellSlot,0,3)"/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Mauler"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TyphonHandLvl7;"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="TyphonHandLvl5;"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d,1,1,WarlockSpell);"/>
+                    <attribute id="TableUUID" type="guid" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583"/>
+                    <attribute id="UUID" type="guid" value="5200fa67-a2ed-41af-b610-669ccf451d1c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="Mauler"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d,1,1,WarlockSpell);"/>
+                    <attribute id="TableUUID" type="guid" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583"/>
+                    <attribute id="UUID" type="guid" value="284d5cac-4ca4-420a-9703-56127576f7ba"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,3,5);ActionResourceOverride(WarlockSpellSlot,0,4)"/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="Mauler"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TyphonHandLvl9;"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="TyphonHandLvl7;"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,1,WarlockSpell);"/>
+                    <attribute id="TableUUID" type="guid" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583"/>
+                    <attribute id="UUID" type="guid" value="b89db26f-1071-41de-b538-2b94789a4265"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="Mauler"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,1,WarlockSpell);"/>
+                    <attribute id="TableUUID" type="guid" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583"/>
+                    <attribute id="UUID" type="guid" value="23da3da1-6c3c-4aaa-aa52-8ac8d71ec199"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,5);"/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Mauler"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,1,WarlockSpell);"/>
+                    <attribute id="TableUUID" type="guid" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583"/>
+                    <attribute id="UUID" type="guid" value="347f034d-a261-4253-bc6f-c0f24255b4b6"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="Mauler"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,1,WarlockSpell);"/>
+                    <attribute id="TableUUID" type="guid" value="a8f204d3-7648-4e0d-9f33-d1cfc15cf583"/>
+                    <attribute id="UUID" type="guid" value="292f7a4c-bf5e-4d96-8889-6aefbc417c7c"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

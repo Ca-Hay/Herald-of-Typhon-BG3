@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40"/>
+                    <attribute id="Name" type="FixedString" value="AveryCantripSpellList"/>
+                    <attribute id="Spells" type="LSString" value="Target_ViciousMockery;"/>
+                    <attribute id="UUID" type="guid" value="b47e5048-caa7-457f-bc47-84a70b86f1ac"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="65952d48-bb16-4ad7-b173-532182bf7770"/>
+                    <attribute id="Name" type="FixedString" value="AverySpellListLvl1"/>
+                    <attribute id="UUID" type="guid" value="5eb16ace-a4ef-4e8b-b6b8-d7cdbd20689e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="fe101a94-8619-49b2-859d-a68c2c291054"/>
+                    <attribute id="Name" type="FixedString" value="AverySpellListLvl2"/>
+                    <attribute id="UUID" type="guid" value="bbd2c2e0-7bb7-41e9-904a-c350a80872e6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="30e9b761-6be0-418e-bb28-5103c00c663b"/>
+                    <attribute id="Name" type="FixedString" value="AverySpellListLvl3"/>
+                    <attribute id="UUID" type="guid" value="372488cc-0923-4c51-9713-83628ada0776"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="b64e527e-1f97-4125-84f7-78376ab1440b"/>
+                    <attribute id="Name" type="FixedString" value="AverySpellListLvl4"/>
+                    <attribute id="UUID" type="guid" value="2120290c-3bc7-4ac8-a84c-90b493faeee4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="6d2edca9-71a7-4f3f-89f0-fccfff0bdee5"/>
+                    <attribute id="Name" type="FixedString" value="AverySpellListLvl5"/>
+                    <attribute id="UUID" type="guid" value="1996978b-5214-4be1-967f-b8f945f9d459"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

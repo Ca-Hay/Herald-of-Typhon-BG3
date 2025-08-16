@@ -1,0 +1,11 @@
+new entry "Teleportation_AveryHandDoorway"
+type "SpellData"
+data "SpellType" "Teleportation"
+using "Teleportation_DimensionDoor"
+data "Cooldown" "OncePerTurn"
+data "AIFlags" "CanNotUse"
+data "TargetRadius" "4"
+data "DisplayName" "h93ed3e94g5112g950bg6316g4ca922ba9d46;1"
+data "UseCosts" "BonusActionPoint:1;"
+data "SpellFlags" "HasVerbalComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems;ImmediateCast"
+

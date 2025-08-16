@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="4fcdf163-88be-40b5-bf02-680ac5d776d9">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a9baac6-cfe3-4959-9b1f-30ca44a1f90b" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandShoveAOE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1959c63-35bc-4469-8ee9-6b3e13b84c64" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="SurfaceGrowStep" type="IntegerTableFieldDefinition" value="10" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Bludgeoning);Force(8, OriginToTarget);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((2d8)/2,Bludgeoning);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_GustOfWind" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h52d8d2d7g75e0g55e5g7c2dg51464fa17d76" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0c1f6bf0ge326gea27gea77gcb512f5a5a82" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Bludgeoning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Strength" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="null" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="0319ca29-4024-4649-9278-3c1f20c5f023,,;a71e11ca-95ab-463d-a4bf-fe8094126b61,,;352c3a89-f99c-4472-8424-58c0ffb15e55,,;a57fc614-ed20-4574-936b-bdcc6cebd36a,,;b24b3f23-6d3a-43ce-ae3a-abfb44d26082,,;200ab854-a989-4a6a-8ac9-4b20aecaccda,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9185a758-7f07-4e46-8985-cbfa87bf1b4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandShoveAOE_Legendary" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a9baac6-cfe3-4959-9b1f-30ca44a1f90b" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d12,Bludgeoning);Force(8, OriginToTarget);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((2d12)/2,Bludgeoning);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d12,Bludgeoning)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

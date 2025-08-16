@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3f5063e7-e02b-4849-a503-9ba01dc6e2e6">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b47e5048-caa7-457f-bc47-84a70b86f1ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryCantripSpellList" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ViciousMockery;" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5eb16ace-a4ef-4e8b-b6b8-d7cdbd20689e" />
+        <field name="Name" type="NameTableFieldDefinition" value="AverySpellListLvl1" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="65952d48-bb16-4ad7-b173-532182bf7770" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbd2c2e0-7bb7-41e9-904a-c350a80872e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="AverySpellListLvl2" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="fe101a94-8619-49b2-859d-a68c2c291054" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="372488cc-0923-4c51-9713-83628ada0776" />
+        <field name="Name" type="NameTableFieldDefinition" value="AverySpellListLvl3" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="30e9b761-6be0-418e-bb28-5103c00c663b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2120290c-3bc7-4ac8-a84c-90b493faeee4" />
+        <field name="Name" type="NameTableFieldDefinition" value="AverySpellListLvl4" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="b64e527e-1f97-4125-84f7-78376ab1440b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1996978b-5214-4be1-967f-b8f945f9d459" />
+        <field name="Name" type="NameTableFieldDefinition" value="AverySpellListLvl5" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="6d2edca9-71a7-4f3f-89f0-fccfff0bdee5" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

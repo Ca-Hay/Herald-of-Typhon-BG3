@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="72fdba5f-cbeb-4db9-ac1f-904d97698aac" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandsAOE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e5c04225-1f14-4bdd-bbd1-b11db127687b" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Autocast" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Slam" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h034d11edga97ag5f90gfdb9gda50228a2df3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hef035a40gd1e4gb71fgf554ga0d803043565" version="3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="CursorMode" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6ec808e1-e128-44ef-9361-a713bf86de8f,,;6ec808e1-e128-44ef-9361-a713bf86de8f,,;eb054308-7fce-4b85-bf4c-7a0031fda7ac,,;f57008d7-9da8-40e0-8b5f-f80c6440954a,,;6ec808e1-e128-44ef-9361-a713bf86de8f,,;b2e9c771-3497-444c-b360-23b4441985a1,,;f920a0a6-f257-4ce4-8d17-2dcaa7bb7bbb,,;,,;,," />
+        <field name="SpellCategory" type="EnumerationListTableFieldDefinition" value="SC_IntentDamage;SC_TargetAoE" enumeration_type_name="SpellCategoryFlags" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="PhysicalDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="ImpactEffect" type="GuidObjectTableFieldDefinition" value="82cd426e-7d1c-4e44-9965-9859d0660658" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6, Bludgeoning)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;IsAttack" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="fdbf8e88-c3a5-4151-a81d-429985de422c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="69aaec35-fb5f-489e-a4cc-47310f4377e9" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d6e9dd61-ef5d-4aa7-95ee-0dc362a2d16d" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="c9ae8409-70ac-4d30-a3d6-fccb74293097" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d6, Bludgeoning);IF(not Ally()):Force(3,OriginToEntity,Aggressive);IF(Ally()):Force(3,OriginToEntity,Friendly);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((2d6)/2, Bludgeoning);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6,Bludgeoning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="null" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="null" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f238b87-d73e-4527-9d0b-338f18fd513c" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandsAOE_Weaker" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="72fdba5f-cbeb-4db9-ac1f-904d97698aac" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d4, Bludgeoning);IF(not Ally()):Force(2,OriginToEntity,Aggressive);IF(Ally()):Force(2,OriginToEntity,Friendly);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((2d4)/2, Bludgeoning);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h83a98670gc6e8g6cb6gd87dgf60ee4b12fd1" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4, Bludgeoning)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d4,Bludgeoning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44d0db3b-e308-4802-9f9d-8337c3344821" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandsAOE_Stronger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="72fdba5f-cbeb-4db9-ac1f-904d97698aac" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="4" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8, Bludgeoning);IF(not Ally()):Force(4,OriginToEntity,Aggressive);IF(Ally()):Force(4,OriginToEntity,Friendly);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((3d8)/2, Bludgeoning);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he16a71b3gb258ge5d9gf89cg48819d0c5561" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8, Bludgeoning)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Bludgeoning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e8f99777-9b1e-403c-97f8-9a0b9af27b07" />
+        <field name="Name" type="NameTableFieldDefinition" value="AveryHandsAOE_Legendary" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="44d0db3b-e308-4802-9f9d-8337c3344821" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10, Force);IF(not Ally()):Force(4,OriginToEntity,Aggressive);IF(Ally()):Force(4,OriginToEntity,Friendly);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((3d10)/2,Force);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd6bebe64gf7e6gdfbbg2708gbbc3cec1c73c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d10, Force)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d10,Force)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7fd57a54-8b60-4713-be25-017f472f7234" />
+        <field name="Name" type="NameTableFieldDefinition" value="DismissTyphon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="be2ddd2f-6515-4b5c-aab5-e241280f7a52" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hda8080b9gd6deg9448g220cg71854e73664e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a10d4efg0a6ag9b64ga0e5g90757d10c3b8" version="2" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
