@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="fdd75d80-796f-401a-ac7d-faf77bfe5464">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="99c50c93-017a-4d25-83fb-e3de3d7b98c5" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="35d1e439-70cc-4a86-b9ce-1cdc0c6f5f0f" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Herald Of Typhon" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

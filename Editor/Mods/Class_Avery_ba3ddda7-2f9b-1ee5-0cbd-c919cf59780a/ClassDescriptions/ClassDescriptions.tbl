@@ -13,8 +13,8 @@
         <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="False" />
         <field name="CanLearnSpells" type="BoolTableFieldDefinition" value="True" />
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
-        <field name="BaseHp" type="IntegerTableFieldDefinition" value="13" />
-        <field name="HpPerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="BaseHp" type="IntegerTableFieldDefinition" value="8" />
+        <field name="HpPerLevel" type="IntegerTableFieldDefinition" value="5" />
         <field name="CommonHotbarColumns" type="IntegerTableFieldDefinition" value="9" />
         <field name="ClassHotbarColumns" type="IntegerTableFieldDefinition" value="5" />
         <field name="ItemsHotbarColumns" type="IntegerTableFieldDefinition" value="2" />

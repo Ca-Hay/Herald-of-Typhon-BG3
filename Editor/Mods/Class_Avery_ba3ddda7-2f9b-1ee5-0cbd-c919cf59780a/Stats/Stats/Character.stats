@@ -40,6 +40,7 @@
         <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="ResistantToNonMagical" enumeration_type_name="ResistanceFlags" version="1" />
         <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="ResistantToNonMagical" enumeration_type_name="ResistanceFlags" version="1" />
         <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Blindsight;ClarifiedMortality;ExtraAttack;Sentinel_Attack;Sentinel_OpportunityAdvantage;" />
+        <field name="PsychicResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="8" revision="0" build="200"/>
+    <version major="4" minor="8" revision="0" build="400"/>
     <region id="ClassDescriptions">
         <node id="root">
             <children>
                 <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="13"/>
+                    <attribute id="BaseHp" type="int32" value="8"/>
                     <attribute id="CanLearnSpells" type="bool" value="true"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="ClassEquipment" type="FixedString" value="EPQ_CC_Mauler"/>
@@ -13,7 +13,7 @@
                     <attribute id="CommonHotbarColumns" type="int32" value="9"/>
                     <attribute id="Description" type="TranslatedString" handle="h8c532fc3gb601g67fcg1bd4gd192a0404091" version="6"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h144705b0g3e01gbbc3gc23bgf1b69f9d9d7b" version="2"/>
-                    <attribute id="HpPerLevel" type="int32" value="4"/>
+                    <attribute id="HpPerLevel" type="int32" value="5"/>
                     <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="MustPrepareSpells" type="bool" value="false"/>

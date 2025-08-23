@@ -29,6 +29,7 @@ data "Passives" "AttackOfOpportunity;Blindsight;ClarifiedMortality;ExtraAttack;S
 data "BludgeoningResistance" "ResistantToNonMagical"
 data "SlashingResistance" "ResistantToNonMagical"
 data "PiercingResistance" "ResistantToNonMagical"
+data "PsychicResistance" "Immune"
 
 new entry "AveryEyephon"
 type "Character"

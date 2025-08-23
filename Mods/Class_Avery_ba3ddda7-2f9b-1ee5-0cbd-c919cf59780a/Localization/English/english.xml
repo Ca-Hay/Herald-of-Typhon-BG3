@@ -71,4 +71,15 @@
   <content contentuid="h21298894g71ffg45e5gf290g8119c057ad21" version="1">Enhanced Blindsight</content>
   <content contentuid="h55b96e8fg865dg43e5ga03cgd092f148f4ef" version="1">You are immune to the blinded status effect and also have the effects of minor darkvision.</content>
   <content contentuid="hef182cb2g7f31g7df1gbdf0g32f6b59c4641" version="1">It doesnt rely on sight to perceive its surroundings</content>
+  <content contentuid="h15a00230gd415g78e7gf07egb9f49f1ae4e4" version="1">Hunger of Typhon</content>
+  <content contentuid="hb2511af1g7d11g6ea0g7f72g59a0af867690" version="1">Creatures starting their turn in the area take [1]. Creatures ending their turn in the area possibly take an increased [2].&lt;br&gt;&lt;br&gt;The area is &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+  <content contentuid="h338734a7g6d11g5b17gcebcgf9b96d0622c8" version="1">A festering hunger gnaws at your insides. Your class summons are now Immune to Psychic damage and you can cast Hunger of Typhon (totally not reskinned Hunger of Hadar)</content>
+  <content contentuid="hea7b5decg0a9cg9732g0cb0gab32641102f9" version="1">Takes [1] as purple, slimy, otherworldly tentacles rub against them.</content>
+  <content contentuid="hdd3287e6gec71g2771g1cf9gfde1fdaa39c9" version="1">Hunger of Typhon</content>
+  <content contentuid="h95822731g9116gad0bg4415gf1a96d32eb9b" version="1">A sphere of weird blackness, teeming with unknown horrors.&lt;br&gt;&lt;br&gt;Creatures starting their turn in the area take [1]. Creatures ending their turn in the area possibly take an increased [2].&lt;br&gt;&lt;br&gt;The area is &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, and creatures within are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="h88ab57c0gc909g3100g5e2ag63eec07b3ad8" version="1">Hunger of Typhon</content>
+  <content contentuid="h2de6f9a1g0d4bg281dgafd3g7b014af78b10" version="1">Hunger of Typhon</content>
+  <content contentuid="he28234edgb6c9g6ad4g7e55g596c70cd4700" version="1">Standing near a portal to the dark between the planes with unknown horrors.&lt;br&gt;&lt;br&gt;Takes [1] at the start of their turn, and possibly [2] at the end of their turn, as long as they are in the area.&lt;br&gt;&lt;br&gt;They are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;, and the area is &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+  <content contentuid="he59f01cag7bf3gc283g1480g5c0fab4e2415" version="1">Hunger of Typhon</content>
+  <content contentuid="h350433c0g2cf1ge3c1g218ag7dacb8856258" version="1">A festering hunger gnaws at your insides. Your class summons are now Immune to Psychic damage and you can cast Hunger of Typhon (totally not reskinned Hunger of Hadar)</content>
 </contentList>

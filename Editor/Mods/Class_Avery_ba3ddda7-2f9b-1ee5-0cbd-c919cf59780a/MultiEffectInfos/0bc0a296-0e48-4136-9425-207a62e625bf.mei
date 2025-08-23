@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="0bc0a296-0e48-4136-9425-207a62e625bf" OwnerUUID="a4f50b19-08a9-4431-814b-596c2bfb92fd" Name="VOID_HUNGEROFTYPHON_AURA_StatusEffect">
+  <EffectInfo UUID="09aa54fd-d01d-4fc4-b51d-aec896aa75db" EffectResourceGuid="6026c9a4-a8a4-2d5c-82a1-e8cd95b56fae" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

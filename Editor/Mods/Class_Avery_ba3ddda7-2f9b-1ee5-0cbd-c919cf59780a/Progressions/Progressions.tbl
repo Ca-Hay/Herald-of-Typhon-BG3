@@ -23,7 +23,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="2" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,2,1);" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(333fb1b0-9398-4ca8-953e-6c0f9a59bbed,2,WarlockInvocations);SelectSpells(65952d48-bb16-4ad7-b173-532182bf7770,1,1,WarlockSpell);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(333fb1b0-9398-4ca8-953e-6c0f9a59bbed,2,WarlockInvocations);SelectSpells(65952d48-bb16-4ad7-b173-532182bf7770,1,0,WarlockSpell);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -75,6 +75,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(5dec41aa-f16a-434e-b209-50c07e64e4ed,1,1,WarlockSpell);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HungerOfTyphon;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -1,4 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
-  <stat_objects />
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f931c55d-2c6d-4537-8377-27f6e0cf9181" />
+        <field name="Name" type="NameTableFieldDefinition" value="TyphonVOID_AURA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37a29975-269c-4860-835f-6dc3c86b2f02" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdd3287e6gec71g2771g1cf9gfde1fdaa39c9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95822731g9116gad0bg4415gf1a96d32eb9b" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Psychic);DealDamage(2d8,Psychic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_HungerOfTyphon" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TyphonVOID_AURA" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy()):ApplyStatus(TyphonVOID_START,100,-1);TARGET:IF(Enemy()):ApplyStatus(TyphonVOID_END,100,-1);TARGET:IF(Character()):ApplyStatus(DIFFICULT_TERRAIN,100,-1)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="0bc0a296-0e48-4136-9425-207a62e625bf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b56f0083-8411-44af-bff2-9e3a511e8683" />
+        <field name="Name" type="NameTableFieldDefinition" value="TyphonVOID_START" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c3908dda-1cd0-4a4b-9bb2-baa0b17018a6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h88ab57c0gc909g3100g5e2ag63eec07b3ad8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he28234edgb6c9g6ad4g7e55g596c70cd4700" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Psychic);DealDamage(2d8,Psychic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_HungerOfTyphon" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d6,Psychic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6,Psychic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4553b457-0dd8-4669-afe5-96e9321c9728" />
+        <field name="Name" type="NameTableFieldDefinition" value="TyphonVOID_END" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="333adb98-b272-423c-8a99-c0491db0edfe" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2de6f9a1g0d4bg281dgafd3g7b014af78b10" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hea7b5decg0a9cg9732g0cb0gab32641102f9" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Psychic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Psychic" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="ApplyStatus(TyphonVOID_END_DAMAGE,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1be97b73-1b13-472c-9ce3-5bd0d55e0481" />
+        <field name="Name" type="NameTableFieldDefinition" value="TyphonVOID_END_DAMAGE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c431c715-bac7-43b0-aef1-609024892d39" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Psychic,Magical)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
 </stats>
